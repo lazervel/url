@@ -1,5 +1,13 @@
 # PHP URL
 > URL resolution and parsing meant to have feature parity with PHP core.
+>
+> <a href="https://github.com/shahzadamodassir"><img src="https://img.shields.io/badge/Author-Shahzada%20Modassir-%2344cc11?style=flat-square"/></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/lazervel/url?style=flat-square"/></a>
+<a href="https://packagist.org/packages/web/url"><img src="https://img.shields.io/packagist/dt/web/url.svg?style=flat-square" alt="Total Downloads"></a>
+<a href="https://github.com/lazervel/url/stargazers"><img src="https://img.shields.io/github/stars/lazervel/url?style=flat-square"/></a>
+<a href="https://github.com/lazervel/url/releases"><img src="https://img.shields.io/github/release/lazervel/url.svg?style=flat-square" alt="Latest Version"></a>
+<a href="https://github.com/lazervel/url/graphs/contributors"><img src="https://img.shields.io/github/contributors/lazervel/url?style=flat-square" alt="Contributors"></a>
+<a href="/"><img src="https://img.shields.io/github/repo-size/lazervel/url?style=flat-square" alt="Repository Size"></a>
 
 ## Composer Installation
 
