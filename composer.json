@@ -3,16 +3,17 @@
   "description": "URL resolution and parsing meant to have feature parity with PHP core",
   "type": "library",
   "license": "MIT",
-  "keywords": ["url", "parser"],
+  "homepage": "https://github.com/lazervel",
+  "keywords": ["url", "php", "parser"],
   "autoload": {
     "psr-4": {
-      "Url\\": "src/"
+      "Web\\Url\\": "src/"
     }
   },
   "authors": [
     {
       "name": "Shahzada Modassir",
-      "email": "codingmodassir@gmail.com",
+      "email": "shahzadamodassir@gmail.com",
       "homepage": "https://github.com/shahzadamodassir"
     },
     {
@@ -25,8 +26,18 @@
     {
       "type": "Github",
       "url": "https://github.com/shahzadamodassir"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://patreon.com/shahzadamodassir"
+    },
+    {
+      "type": "Opencollective",
+      "url": "https://opencollective.com/shahzadamodassir"
     }
   ],
-  "minimum-stability": "dev",
-  "require": {}
+  "minimum-stability": "stable",
+  "require": {
+    "web/url-search-params": "^1.0"
+  }
 }
