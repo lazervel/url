@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Web\Url\Exception;
+namespace Lazervel\Url\Exception;
 
 final class InvalidUrlException extends \InvalidArgumentException implements \Throwable
 {

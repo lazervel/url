@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Web\Url;
+namespace Lazervel\Url;
 
 interface UrlInterface
 {

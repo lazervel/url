@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Web\Url\Parser;
+namespace Lazervel\Url\Parser;
 
 interface ParserInterface
 {

@@ -24,7 +24,7 @@ or add it by hand to your `composer.json` file.
 ```php
 Url::parse('https://user:pass@www.example.com:5500/path/example.html?id=123&user=test#section');
 // Results:
-// Web\Url\Parser\Parser Object
+// Lazervel\Url\Parser\Parser Object
 // (
 //   [hash] => #section
 //   [search] => ?id=123&user=test
@@ -46,7 +46,7 @@ Url::parse('https://user:pass@www.example.com:5500/path/example.html?id=123&user
 
 new Url('path/example.html?id=123&user=test#section', 'https://user:pass@www.example.com:5500/');
 // Results:
-Web\Url\Url Object
+Lazervel\Url\Url Object
 // (
 //   [hash] => #section
 //   [password] => pass

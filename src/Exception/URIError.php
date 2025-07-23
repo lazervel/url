@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Web\Url\Exception;
+namespace Lazervel\Url\Exception;
 
 final class URIError extends \TypeError implements \Throwable
 {

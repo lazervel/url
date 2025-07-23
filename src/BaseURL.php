@@ -21,9 +21,9 @@ declare(strict_types=1);
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Web\Url;
+namespace Lazervel\Url;
 
-use Web\Url\Parser\Parser;
+use Lazervel\Url\Parser\Parser;
 
 /**
  * @internal
@@ -113,7 +113,7 @@ abstract class BaseURL
   /**
    * A PHP implementation URLSearchParams for handling query parameters easily.
    * 
-   * @var \Web\URLSearchParams\URLSearchParams
+   * @var \Lazervel\URLSearchParams\URLSearchParams
    */
   public $searchParams;
 
@@ -202,9 +202,9 @@ abstract class BaseURL
    * Initializes a new instance of BaseURL => Url with the given $input and $base.
    * 
    * @param string $input             [required]
-   * @param string|\Web\Url\Url $base [optional]
+   * @param string|\Lazervel\Url\Url $base [optional]
    * 
-   * @throws \Web\Url\Exception\InvalidUrlException
+   * @throws \Lazervel\Url\Exception\InvalidUrlException
    * 
    * @return void
    */
@@ -220,7 +220,7 @@ abstract class BaseURL
    * @param bool   $parseQuery       [optional]
    * @param bool   slashesDenoteHost [optional]
    * 
-   * @return \Web\Url\ParserInterface Returns a URL object
+   * @return \Lazervel\Url\ParserInterface Returns a URL object
    */
   public static function parse(string $url, bool $parseQuery = false, bool $slashesDenoteHost = false)
   {

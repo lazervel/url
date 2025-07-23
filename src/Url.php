@@ -21,7 +21,7 @@ declare(strict_types=1);
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Web\Url;
+namespace Lazervel\Url;
 
 class Url extends BaseURL implements UrlInterface
 {
@@ -30,9 +30,9 @@ class Url extends BaseURL implements UrlInterface
    * Initializes a new instance of [Url] with the given $input and $base.
    * 
    * @param string $input             [required]
-   * @param string|\Web\Url\Url $base [optional]
+   * @param string|\Lazervel\Url\Url $base [optional]
    * 
-   * @throws \Web\Url\Exception\InvalidUrlException
+   * @throws \Lazervel\Url\Exception\InvalidUrlException
    * 
    * @return void
    */

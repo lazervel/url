@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Web\Url\Parser;
+namespace Lazervel\Url\Parser;
 
-use Web\Url\Exception\InvalidUrlException;
-use Web\URLSearchParams\URLSearchParams;
-use Web\Url\Exception\URIError;
-use Web\Url\UrlInterface;
+use Lazervel\Url\Exception\InvalidUrlException;
+use Lazervel\URLSearchParams\URLSearchParams;
+use Lazervel\Url\Exception\URIError;
+use Lazervel\Url\UrlInterface;
 
 final class Parser implements ParserInterface
 {
@@ -123,7 +123,7 @@ final class Parser implements ParserInterface
 
   /**
    * 
-   * @var \Web\Url\UrlInterface
+   * @var \Lazervel\Url\UrlInterface
    */
   private $url;
 
@@ -135,7 +135,7 @@ final class Parser implements ParserInterface
 
   /**
    * 
-   * @var string|\Web\Url\Url
+   * @var string|\Lazervel\Url\Url
    */
   private $base;
 
@@ -152,10 +152,10 @@ final class Parser implements ParserInterface
    * Initializes a new instance of Parser => Url with the given @paramters.
    * 
    * @param string                     [required]
-   * @param string|\Web\Url\Url|null   [optional]
+   * @param string|\Lazervel\Url\Url|null   [optional]
    * @param bool                       [optional]
    * @param bool                       [optional]
-   * @param \Web\Url\UrlInterface|null [optional]
+   * @param \Lazervel\Url\UrlInterface|null [optional]
    * 
    * @return void
    */
@@ -218,7 +218,7 @@ final class Parser implements ParserInterface
 
   /**
    * 
-   * @throws \Web\Url\Exception\InvalidUrlException
+   * @throws \Lazervel\Url\Exception\InvalidUrlException
    * 
    * @return void
    */
@@ -263,9 +263,9 @@ final class Parser implements ParserInterface
    * The parse() method takes a URL string, parses it, and returns a URL object.
    * A URIError is thrown if the auth property is present but cannot be decoded.
    * 
-   * @throws \Web\Url\Exception\InvalidUrlException
+   * @throws \Lazervel\Url\Exception\InvalidUrlException
    * 
-   * @return \Web\Url\Parser\ParserInterface|\Web\Url\UrlInterface
+   * @return \Lazervel\Url\Parser\ParserInterface|\Lazervel\Url\UrlInterface
    */
   public function parse()
   {
@@ -292,14 +292,14 @@ final class Parser implements ParserInterface
    * Initializes a new instance of Parser => Url with the given @paramters.
    * 
    * @param string                     [required]
-   * @param string|\Web\Url\Url|null   [optional]
+   * @param string|\Lazervel\Url\Url|null   [optional]
    * @param bool                       [optional]
    * @param bool                       [optional]
-   * @param \Web\Url\UrlInterface|null [optional]
+   * @param \Lazervel\Url\UrlInterface|null [optional]
    * 
-   * @throws \Web\Url\Exception\InvalidUrlException
+   * @throws \Lazervel\Url\Exception\InvalidUrlException
    * 
-   * @return \Web\Url\Parser\Parser
+   * @return \Lazervel\Url\Parser\Parser
    */
   public static function with(string $input, $base, bool $parseQuery, bool $slashesDenoteHost, UrlInterface $url = null, string $regex)
   {
