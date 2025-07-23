@@ -1,5 +1,5 @@
 {
-  "name": "web/url",
+  "name": "lazervel/url",
   "description": "URL resolution and parsing meant to have feature parity with PHP core",
   "type": "library",
   "license": "MIT",
@@ -12,32 +12,16 @@
   },
   "authors": [
     {
-      "name": "Shahzada Modassir",
-      "email": "shahzadamodassir@gmail.com",
-      "homepage": "https://github.com/shahzadamodassir"
-    },
-    {
-      "name": "Shahzadi Afsara",
-      "email": "shahzadiafsara@gmail.com",
-      "homepage": "https://github.com/javercel"
+      "name": "Indian Modassir",
+      "email": "indianmodassir@gmail.com",
+      "homepage": "https://github.com/indianmodassir"
     }
   ],
   "funding": [
     {
       "type": "Github",
-      "url": "https://github.com/shahzadamodassir"
-    },
-    {
-      "type": "Patreon",
-      "url": "https://patreon.com/shahzadamodassir"
-    },
-    {
-      "type": "Opencollective",
-      "url": "https://opencollective.com/shahzadamodassir"
+      "url": "https://github.com/indianmodassir"
     }
   ],
-  "minimum-stability": "stable",
-  "require": {
-    "web/url-search-params": "^1.0"
-  }
+  "minimum-stability": "stable"
 }
