@@ -3,7 +3,7 @@
 >
 > <a href="https://github.com/shahzadamodassir"><img src="https://img.shields.io/badge/Author-Shahzada%20Modassir-%2344cc11?style=flat-square"/></a>
 <a href="LICENSE"><img src="https://img.shields.io/github/license/lazervel/url?style=flat-square"/></a>
-<a href="https://packagist.org/packages/web/url"><img src="https://img.shields.io/packagist/dt/web/url.svg?style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/lazervel/url"><img src="https://img.shields.io/packagist/dt/lazervel/url.svg?style=flat-square" alt="Total Downloads"></a>
 <a href="https://github.com/lazervel/url/stargazers"><img src="https://img.shields.io/github/stars/lazervel/url?style=flat-square"/></a>
 <a href="https://github.com/lazervel/url/releases"><img src="https://img.shields.io/github/release/lazervel/url.svg?style=flat-square" alt="Latest Version"></a>
 <a href="https://github.com/lazervel/url/graphs/contributors"><img src="https://img.shields.io/github/contributors/lazervel/url?style=flat-square" alt="Contributors"></a>
@@ -14,7 +14,7 @@
 Installation is super-easy via [Composer](https://getcomposer.org)
 
 ```bash
-composer require web/url
+composer require lazervel/url
 ```
 
 or add it by hand to your `composer.json` file.
