@@ -7,7 +7,7 @@
   "keywords": ["url", "php", "parser"],
   "autoload": {
     "psr-4": {
-      "Web\\Url\\": "src/"
+      "Lazervel\\Url\\": "src/"
     }
   },
   "authors": [
